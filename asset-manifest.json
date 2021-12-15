@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kanye-fun/static/css/main.c03b31e8.css",
+    "main.js": "/kanye-fun/static/js/main.08344ec1.js",
+    "static/js/787.6d4cebed.chunk.js": "/kanye-fun/static/js/787.6d4cebed.chunk.js",
+    "index.html": "/kanye-fun/index.html",
+    "main.c03b31e8.css.map": "/kanye-fun/static/css/main.c03b31e8.css.map",
+    "main.08344ec1.js.map": "/kanye-fun/static/js/main.08344ec1.js.map",
+    "787.6d4cebed.chunk.js.map": "/kanye-fun/static/js/787.6d4cebed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c03b31e8.css",
+    "static/js/main.08344ec1.js"
+  ]
+}
