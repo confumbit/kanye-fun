@@ -9,4 +9,66 @@
 .background {
   height: 100%;
   width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.colorscreen {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+    15deg,
+    black,
+    rgba(0, 0, 0, 0.7),
+    transparent
+  );
+}
+.colorway {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  animation: cover-in 3s;
+  display: none;
+  position: fixed;
+  z-index: 10;
+}
+@keyframes cover-in {
+  from {
+    clip-path: circle(50px at -10% 110%);
+  }
+  40% {
+    clip-path: circle(1000px at -10% 110%);
+  }
+  50% {
+    clip-path: circle(2000px at -10% 110%);
+  }
+  60% {
+    clip-path: circle(1000px at 110% -10%);
+  }
+  to {
+    clip-path: circle(50px at 110% -10%);
+  }
+}
+.textscreen {
+  top: 0;
+  left: 0;
+  height: calc(100% - 100px);
+  width: calc(90% - 100px);
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  padding: 50px;
+  color: white;
+  font-size: 5vw;
+  font-weight: 900;
+  font-family: Roboto;
+  position: fixed;
+  z-index: 11;
+}
+@media screen and (max-width: 750px) {
+  .textscreen {
+    font-size: 5vh;
+  }
 }
